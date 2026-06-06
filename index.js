@@ -1,3 +1,13 @@
-module.exports = (req, res) => {
-  res.end("PeerCord server is running");
-};
+const express = require("express");
+
+const app = express();
+
+app.get("/", (req, res) => {
+    res.send("PeerCord server is running");
+});
+
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
