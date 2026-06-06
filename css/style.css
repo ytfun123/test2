@@ -1,0 +1,3 @@
+body{margin:0;background:#313338;color:#fff;font-family:Arial}
+.page{display:flex;align-items:center;justify-content:center;height:100vh}
+.panel{background:#1e1f22;padding:20px;border-radius:12px}

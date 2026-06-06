@@ -1,0 +1,1 @@
+function byId(x){return document.getElementById(x);}
